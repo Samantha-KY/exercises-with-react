@@ -1,15 +1,4 @@
-import React from "react";
-
-const Button = (props) => (
-  <div className="flex justify-center items-center mt-16">
-    <button
-      className="bg-blue-500 text-white px-10 py-5 rounded-lg"
-      onClick={() => alert(props.text)}
-    >
-      Click me
-    </button>
-  </div>
-);
+import Button from "./components/Button";
 
 const Exercise3 = () => {
   return (
