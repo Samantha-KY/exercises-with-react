@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Exercise7 = () => {
   const [indentification, setIndentification] = useState({
