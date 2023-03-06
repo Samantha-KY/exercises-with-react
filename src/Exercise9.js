@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import ReactFlipCard from "reactjs-flip-card";
 
 const BackFace = () => {
-  return <div className="text-xl font-extrabold">More information</div>;
+  <div className="text-xl font-extrabold">More information</div>;
 };
 
 const FrontFace = ({ src, name, title }) => {
@@ -39,7 +39,7 @@ const Exercise9 = () => {
       <div className="w-full flex items-center justify-center mt-16">
         <button
           className="bg-red-500 border-b-4 hover:border-red-900 text-white font-bold px-7 py-3 rounded-lg text-3xl"
-          onClick={() => getRandomData()}
+          onClick={getRandomData}
         >
           Fetch Random
         </button>
