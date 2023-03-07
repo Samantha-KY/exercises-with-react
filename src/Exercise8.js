@@ -1,11 +1,5 @@
 import data from "./data.json";
-
-const JokeCard = (props) => (
-  <div className="flex flex-col justify-center items-center gap-2 rounded-md py-8 px-5 bg-white w-full">
-    <p className="font-bold text-xl text-center">{props.setup}</p>
-    <p className="text-center">{props.punchline}</p>
-  </div>
-);
+import JokeCard from "./components/JokeCard";
 
 const Exercise8 = () => {
   return (
